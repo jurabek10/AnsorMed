@@ -47,12 +47,21 @@ body {
     align-items: center;
 }
 
+.site-logo-site-footer {
+    color: #fff;
+}
+
+
 .site-logo:hover {
     color: #DE2E54;
 }
 
 .site-logo:active {
     opacity: 0.6;
+}
+
+.site-logo-site-footer:active {
+    color: #fff;
 }
 
 .site-logo-img {
@@ -66,6 +75,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .sitenav-list {
     display: flex;
     align-items: center;
@@ -89,6 +99,19 @@ body {
 }
 
 .sitenav-link:active {
+    opacity: 0.6;
+}
+
+.sitenav-site-footer .sitenav-link {
+    color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover {
+    color: #DE2E54;
+}
+
+.sitenav-site-footer .sitenav-link:active {
+    color: #fff;
     opacity: 0.6;
 }
 
@@ -117,3 +140,21 @@ body {
     color: #fff;
     opacity: 0.6;
 }
+
+
+
+/* Site footer */
+
+.site-footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222222;
+    color: #fff;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
