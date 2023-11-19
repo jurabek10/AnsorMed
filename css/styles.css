@@ -336,7 +336,11 @@ body {
         width: 40%;
         height: auto;
     }
+    <<<<<<< HEAD
     
+    =======
+    
+    >>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
     .index-services {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -345,7 +349,11 @@ body {
     .index-services-list {
         width: 100%;
     }
+    <<<<<<< HEAD
     
+    =======
+    
+    >>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
     .index-service-img {
         margin-right: 32px;
     }
@@ -380,6 +388,8 @@ body {
         padding-bottom: 60px;
     }
     
+    
+    >>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
     .index-services-heading {
         font-size: 24px;
         margin-bottom: 44px;
@@ -393,10 +403,13 @@ body {
         width: 120px;
         height: 120px;
     }
-
+    <<<<<<< HEAD
+    
     .cta-heading {
         font-size: 24px;
     }
+    =======
+    >>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
 }
 
 @media only screen and (max-width: 550px) {
@@ -407,20 +420,33 @@ body {
     .hero-img {
         width: 75%;
     }
+    <<<<<<< HEAD
     
+    =======
+    
+    >>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
     .index-service {
         flex-direction: column;
         align-items: center;
     }
+    <<<<<<< HEAD
     
     .index-services-item:not(:last-child) {
         margin-bottom: 48px;
     }
     
+    =======
+    
+    .index-services-item:not(:last-child) {
+        margin-bottom: 48px;
+    }
+    
+    >>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
     .index-service-img {
         margin-right: 0;
         margin-bottom: 24px;
     }
+    <<<<<<< HEAD
     
     .index-service-title {
         text-align: center;
@@ -433,18 +459,33 @@ body {
     .index-service-description {
         text-align: justify;
     }
-
-    .cta {
-        padding-top: 36px;
-        padding-bottom: 36px;
+    =======
+    
+    .index-service-title {
+        text-align: center;
     }
-
-    .cta-links {
-        flex-direction: column;
+    
+    .index-service-content {
+        width: 100%;
     }
-
-    .cta-links-item:not(:last-child) {
-        margin-right: 0;
-        margin-bottom: 24px;
+    
+    .index-service-description {
+        text-align: justify;
     }
+}
+>>>>>>> 5dfe05058dc8b26101125adb867fb20052ff77d4
+
+.cta {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.cta-links {
+    flex-direction: column;
+}
+
+.cta-links-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 24px;
+}
 }
