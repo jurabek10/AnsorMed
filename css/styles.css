@@ -40,6 +40,7 @@ body {
 .site-header-container {
     display: flex;
     justify-content: space-between;  
+    align-items: center;
 }
 
 .site-logo {
@@ -257,6 +258,7 @@ body {
 }
 
 .index-service-content {
+    flex-grow: 1;
     width: 600px;
 }
 
@@ -296,6 +298,7 @@ body {
 
 .cta-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
@@ -328,12 +331,12 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
+    
     .hero-img {
         width: 40%;
         height: auto;
     }
-
+    
     .index-services {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -342,7 +345,7 @@ body {
     .index-services-list {
         width: 100%;
     }
-
+    
     .index-service-img {
         margin-right: 32px;
     }
@@ -361,11 +364,11 @@ body {
         padding-bottom: 40px;
         text-align: center;
     }
-
+    
     .hero-heading {
         font-size: 24px;
     }
-
+    
     .hero-text {
         width: 100%;
     }
@@ -376,7 +379,7 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
+    
     .index-services-heading {
         font-size: 24px;
         margin-bottom: 44px;
@@ -390,36 +393,58 @@ body {
         width: 120px;
         height: 120px;
     }
+
+    .cta-heading {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
+    .hero {
+        width: 100%;
+    }
+    
     .hero-img {
         width: 75%;
     }
-
+    
     .index-service {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .index-services-item:not(:last-child) {
         margin-bottom: 48px;
     }
-
+    
     .index-service-img {
         margin-right: 0;
         margin-bottom: 24px;
     }
-
+    
     .index-service-title {
         text-align: center;
     }
-
+    
     .index-service-content {
         width: 100%;
     }
-
+    
     .index-service-description {
         text-align: justify;
+    }
+
+    .cta {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .cta-links {
+        flex-direction: column;
+    }
+
+    .cta-links-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 24px;
     }
 }
