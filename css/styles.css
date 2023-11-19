@@ -351,6 +351,25 @@ body {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .site-footer-container {
+        flex-direction: column;
+    }
+
+    .site-logo-site-footer {
+        margin-bottom: 24px;
+    }
+
+    .sitenav-site-footer .sitenav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sitenav-site-footer .sitenav-item {
+        margin: 8px 24px;
+    }
+}
+
 @media only screen and (max-width: 800px)  {
     .hero-container {
         flex-wrap: wrap;
@@ -400,10 +419,6 @@ body {
 }
 
 @media only screen and (max-width: 550px) {
-    .hero {
-        width: 100%;
-    }
-    
     .hero-img {
         width: 75%;
     }
@@ -449,18 +464,17 @@ body {
     .index-service-description {
         text-align: justify;
     }
-}
-
-.cta {
-    padding-top: 36px;
-    padding-bottom: 36px;
-}
-
-.cta-links {
-    flex-direction: column;
-}
-
-.cta-links-item:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 24px;
+    .cta {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    
+    .cta-links {
+        flex-direction: column;
+    }
+    
+    .cta-links-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
 }
